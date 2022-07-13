@@ -1,0 +1,62 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(http://www.bird-wittenbergdental.com/wp-content/uploads/2017/01/top-line-management-login-background-1.jpg);
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm>label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.registerButton {
+  margin-top: 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(8, 163, 67);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
